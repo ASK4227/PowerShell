@@ -1,0 +1,1 @@
+Get-ComputerInfo | Select-Object OsBuildNumber, OsInstallDate, OsName, OsType, OsArchitecture, OsSystemDevice, OsVersion, WindowsVersion | Format-List

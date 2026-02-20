@@ -1,0 +1,1 @@
+(Get-CimInstance Win32_TemperatureProbe) | select @{name='avg'; e={$_.MinReadable + $_.MaxReadable / 2}}
